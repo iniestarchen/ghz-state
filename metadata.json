@@ -1,0 +1,32 @@
+{
+  "id": "ghz-state",
+  "name": "GHZ State",
+  "category": "fundamentals",
+  "description": "Greenberger\u2013Horne\u2013Zeilinger (GHZ) state: maximally entangled 3-qubit state (|000\u27e9 + |111\u27e9)/\u221a2.",
+  "long_description": "The GHZ state generalises the Bell state to three (or more) qubits. It exhibits genuine multipartite entanglement: no qubit is separable from the others. It violates the Mermin inequality, ruling out local hidden variable theories. Measuring any one qubit immediately collapses all others to a definite state.",
+  "difficulty": "beginner",
+  "qubit_count": 3,
+  "clbit_count": 3,
+  "gate_count": 3,
+  "depth": 3,
+  "tags": [
+    "entanglement",
+    "fundamentals",
+    "ghz-state",
+    "multipartite"
+  ],
+  "circuit_formats": [
+    "qasm2"
+  ],
+  "source_file": "circuit.qasm",
+  "expected_output": "50% |000\u27e9, 50% |111\u27e9",
+  "references": [
+    {
+      "title": "Greenberger, Horne, Zeilinger (1989). Going Beyond Bell's Theorem",
+      "url": "https://doi.org/10.1007/978-94-017-0849-4_10"
+    }
+  ],
+  "author": "OpenQC Community",
+  "license": "MIT",
+  "version": "1.0.0"
+}
