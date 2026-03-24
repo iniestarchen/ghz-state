@@ -1,0 +1,34 @@
+{
+  "slug": "ghz-state",
+  "name": "GHZ State",
+  "version": "1.0.0",
+  "author": "iniestarchen",
+  "license": "Apache-2.0",
+  "description": "Create a three-qubit Greenberger-Horne-Zeilinger state (|000> + |111>) / sqrt(2), a maximally entangled multi-qubit state.",
+  "industries": [
+    "education"
+  ],
+  "techniques": [
+    "gate"
+  ],
+  "difficulty": "intermediate",
+  "computation_model": "gate",
+  "algorithm_type": "circuit",
+  "qubit_count": 3,
+  "tags": [
+    "entanglement",
+    "ghz",
+    "multi-qubit",
+    "fundamentals"
+  ],
+  "access": "open",
+  "source": "official",
+  "metadata": {
+    "complexity_classical": "N/A",
+    "complexity_quantum": "O(n)",
+    "year_introduced": 1989,
+    "references": [
+      "https://en.wikipedia.org/wiki/Greenberger%E2%80%93Horne%E2%80%93Zeilinger_state"
+    ]
+  }
+}
